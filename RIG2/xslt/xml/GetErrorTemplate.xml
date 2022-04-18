@@ -1,0 +1,1560 @@
+<?xml version="1.0"?>
+<Syntax>
+	<TemplateReturn>
+		<SoapAction>"ProvisioningNotification.1"</SoapAction>
+		<OperationName>ProvisioningNotification</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/provisioningNotification/interface/v2_1_0</NameSpace>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"http://vf_customer_loyalty_service/CustomerLoyaltyService/creditLoyalty/"</SoapAction>
+		<OperationName>CreditLoyalty</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerLoyalty/interface/v.1.0</NameSpace>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"http://vf_customer_loyalty_service/CustomerLoyaltyService/debitLoyalty/"</SoapAction>
+		<OperationName>DebitLoyalty</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerLoyalty/interface/v.1.0</NameSpace>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"http://vf_cust_personal_info_mgt_service/CustPersonalInfoMgtService/getCustomerSegment/"</SoapAction>
+		<OperationName>GetCustomerSegment</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerPersonalInformationManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"http://vf_tariff_service/GetCustomerBalancesService/getCustomerBalances/"</SoapAction>
+		<OperationName>GetCustomerBalances</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/getCustomerTariff/interface/v.1.4</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_tariff_service/getCustomerTariffService/GetCustomerTariff/"</SoapAction>
+		<OperationName>GetCustomerTariff</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/getCustomerTariff/interface/v.1.4</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_provisioning_operations_service/ProductOperationsService/getProductInfo/"</SoapAction>
+		<OperationName>GetProductInfo</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/provisioningOperations/interface/v.1.5</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_provisioning_operations_service/ProductOperationsService/getProductOffering/"</SoapAction>
+		<OperationName>GetProductOffering</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/provisioningOperations/interface/v.1.5</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_provisioning_operations_service/ProductOperationsService/submitOrder/"</SoapAction>
+		<OperationName>SubmitOrder</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/provisioningOperations/interface/v.1.5</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"CompleteOrder.1"</SoapAction>
+		<OperationName>CompleteOrder</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/provisioningOperations/interface/v.1.5</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_terminal_location_service/TerminalLocationService/getLocation/"</SoapAction>
+		<OperationName>GetLocation</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/terminalLocation/interface/v.1.4</NameSpace>
+	</TemplateReturn>
+	
+	<TemplateReturn>
+		<SoapAction>"http://vf_terminal_connection_service/TerminalConnectionService/getConnectedBearer/"</SoapAction>
+		<OperationName>GetConnectedBearer</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/terminalConnection/interface/v.1.4</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_terminal_connection_service/TerminalConnectionService/getRoamingStatus/"</SoapAction>
+		<OperationName>GetRoamingStatus</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/terminalConnection/interface/v.1.4</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_terminal_status_service/TerminalStatusService/getTerminalStatus/"</SoapAction>
+		<OperationName>GetTerminalStatus</OperationName>
+		<ErrorType>MondrianWithoutOpName</ErrorType>
+		<TemplateType>MondrianWithoutOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/terminalStatus/interface/v2_2</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_terminal_status_service/TerminalStatusService/getTerminalType/"</SoapAction>
+		<OperationName>GetTerminalType</OperationName>
+		<ErrorType>MondrianWithoutOpName</ErrorType>
+		<TemplateType>MondrianWithoutOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/terminalStatus/interface/v2_2</NameSpace>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"ProvisioningNotificationTS.1"</SoapAction>
+		<OperationName>ProvisioningNotificationTS</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/terminalConnection/interface/v.1.4</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_debit_credit_mgt_service/DebitCreditMgtService/getBalance/"</SoapAction>
+		<OperationName>GetBalance</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/debitCreditManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_cust_personal_info_mgt_service/CustPersonalInfoMgtService/getBanBenForCtn/"</SoapAction>
+		<OperationName>GetBanBenForCtn</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerPersonalInformationManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_sub_lifecycle_mgt_service/SubLifecycleMgtIService/getBANSubscriptions/"</SoapAction>
+		<OperationName>GetBANSubscriptions</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/subscriptionLifecycleManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_bill_formatting_service/BillFormattingService/getBillBalances/"</SoapAction>
+		<OperationName>GetBillBalances</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/billFormatting/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_cust_personal_info_mgt_service/CustPersonalInfoMgtService/getExistingPricePlan/"</SoapAction>
+		<OperationName>GetExistingPricePlan</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerPersonalInformationManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_sub_lifecycle_mgt_service/SubLifecycleMgtIService/getSubscriptionInformation/"</SoapAction>
+		<OperationName>GetSubscriptionInformation</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/subscriptionLifecycleManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_billable_item_gathering_service/BillableItemGatheringService/getUnbilledCalls/"</SoapAction>
+		<OperationName>GetUnbilledCalls</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/billableItemGathering/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_bill_formatting_service/BillFormattingService/getUnbilledCharges/"</SoapAction>
+		<OperationName>GetUnbilledCharges</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/billFormatting/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_cust_facing_service_service/CustFacingServiceService/getCustomerProfile/"</SoapAction>
+		<OperationName>GetCustomerProfile</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerFacingService/interface/v.1.0</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_content_selling_management_service/ContentSellingManagementService/selfcareSubscription/"</SoapAction>
+		<OperationName>SelfcareSubscription</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/contentSellingManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_content_selling_management_service/ContentSellingManagementService/modifySubscriptionCharging/"</SoapAction>
+		<OperationName>ModifySubscriptionCharging</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/contentSellingManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_content_selling_management_service/ContentSellingManagementService/usageAuthRateCharge/"</SoapAction>
+		<OperationName>UsageAuthRateCharge</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/contentSellingManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_establish_and_terminate_relationship_service/EstablishAndTerminateRelationshipService/getRegistration/"</SoapAction>
+		<OperationName>GetRegistration</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/establishAndTerminateRelationship/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_establish_and_terminate_relationship_service/EstablishAndTerminateRelationshipService/createRegistration/"</SoapAction>
+		<OperationName>CreateRegistration</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/establishAndTerminateRelationship/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_establish_and_terminate_relationship_service/EstablishAndTerminateRelationshipService/updateRegistration/"</SoapAction>
+		<OperationName>UpdateRegistration</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/establishAndTerminateRelationship/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_bill_payable_and_receivables_management_service/BillPayableAndReceivablesManagementService/getNumOfCards/"</SoapAction>
+		<OperationName>GetNumOfCards</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/billPayableAndReceivablesManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_bill_payable_and_receivables_management_service/BillPayableAndReceivablesManagementService/getCardDetails/"</SoapAction>
+		<OperationName>GetCardDetails</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/billPayableAndReceivablesManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_bill_payable_and_receivables_management_service/BillPayableAndReceivablesManagementService/linkESwipe/"</SoapAction>
+		<OperationName>LinkESwipe</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/billPayableAndReceivablesManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_manage_customer_payments_service/ManageCustomerPaymentsService/topUpWithCard/"</SoapAction>
+		<OperationName>TopUpWithCard</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/manageCustomerPayments/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_manage_customer_payments_service/ManageCustomerPaymentsService/topUpScratch/"</SoapAction>
+		<OperationName>TopUpScratch</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/manageCustomerPayments/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_order_handling_service/OrderHandlingService/addBundle/"</SoapAction>
+		<OperationName>AddBundle</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/orderHandling/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_order_handling_service/OrderHandlingService/getPossibleBundles/"</SoapAction>
+		<OperationName>GetPossibleBundles</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/orderHandling/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_bill_payable_and_receivables_management_service/BillPayableAndReceivablesManagementService/registerCard/"</SoapAction>
+		<OperationName>RegisterCard</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/billPayableAndReceivablesManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_bill_payable_and_receivables_management_service/BillPayableAndReceivablesManagementService/deRegisterCard/"</SoapAction>
+		<OperationName>DeRegisterCard</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/billPayableAndReceivablesManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_bill_payable_and_receivables_management_service/BillPayableAndReceivablesManagementService/updateCardDetails/"</SoapAction>
+		<OperationName>UpdateCardDetails</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/billPayableAndReceivablesManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_bill_payable_and_receivables_management_service/BillPayableAndReceivablesManagementService/getBankCardOptions/"</SoapAction>
+		<OperationName>GetBankCardOptions</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/billPayableAndReceivablesManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_customer_bill_adjustments_service/CustomerBillAdjustmentsService/applyPrepayAdjustments/"</SoapAction>
+		<OperationName>ApplyPrepayAdjustments</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerBillAdjustments/interface/v.1.0</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_crm_interaction_handling_service/CRMInteractionHandlingService/createInteraction/"</SoapAction>
+		<OperationName>CreateInteraction</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/crmInteractionHandling/interface/v.1.0</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_prepay_service_management_service/PrepayServiceManagementService/addPrepayService/"</SoapAction>
+		<OperationName>AddPrepayService</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/prepayServiceManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_prepay_service_management_service/PrepayServiceManagementService/cancelPrepayService/"</SoapAction>
+		<OperationName>CancelPrepayService</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/prepayServiceManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_subscription_barring_service/SubscriptionBarringService/applyNetworkBar/"</SoapAction>
+		<OperationName>ApplyNetworkBar</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/subscriptionBarring/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_subscription_barring_service/SubscriptionBarringService/removeNetworkBar/"</SoapAction>
+		<OperationName>RemoveNetworkBar</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/subscriptionBarring/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_subscription_barring_service/SubscriptionBarringService/resetBarringCode/"</SoapAction>
+		<OperationName>ResetBarringCode</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/subscriptionBarring/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_resource_portability_service/ResourcePortabilityService/transferNumber/"</SoapAction>
+		<OperationName>TransferNumber</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/resourcePortability/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_network_information_management_service/NetworkInformationManagementService/setNetworkSettings/"</SoapAction>
+		<OperationName>SetNetworkSettings</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/networkInformationManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_customer_request_service/CustomerRequestService/processCustomerRequest/"</SoapAction>
+		<OperationName>ProcessCustomer</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerRequest/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_customer_network_information_service/CustomerNetworkInformationService/getHLRSettings/"</SoapAction>
+		<OperationName>GetHLRSettings</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerNetworkInformation/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_manage_customer_account_service/ManageCustomerAccountService/connectNumber/"</SoapAction>
+		<OperationName>ConnectNumber</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/manageCustomerAccount/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_manage_customer_account_service/ManageCustomerAccountService/disconnectNumber/"</SoapAction>
+		<OperationName>DisconnectNumber</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/manageCustomerAccount/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_manage_customer_account_service/ManageCustomerAccountService/migrate/"</SoapAction>
+		<OperationName>Migrate</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/manageCustomerAccount/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_sim_management_service/SimManagementService/cancelSIM/"</SoapAction>
+		<OperationName>CancelSIM</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/simManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_sim_management_service/SimManagementService/changeSIM/"</SoapAction>
+		<OperationName>ChangeSIM</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/simManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_sim_management_service/SimManagementService/showSIM/"</SoapAction>
+		<OperationName>ShowSIM</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/simManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_sim_management_service/SimManagementService/uncancelSIM/"</SoapAction>
+		<OperationName>UncancelSIM</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/simManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_portability_process_service/PortabilityProcessService/exportNumber/"</SoapAction>
+		<OperationName>ExportNumber</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/portabilityProcess/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_portability_process_service/PortabilityProcessService/importNumber/"</SoapAction>
+		<OperationName>ImportNumber</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/portabilityProcess/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_business_event_service/BusinessEventService/businessEventNotification/"</SoapAction>
+		<OperationName>BusinessEventNotification</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/businessEvent/interface/v.1.4</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_location_information_service/locationInformationService/getLatLong/"</SoapAction>
+		<OperationName>GetLatLong</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/locationInformation/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_les_service_service/LESServiceService/ELIR/"</SoapAction>
+		<OperationName>ELIR</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/terminalLocation/interface/v.1.4</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_les_service_service/LESServiceService/SLIR/"</SoapAction>
+		<OperationName>SLIR</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/terminalLocation/interface/v.1.4</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_customer_interface_management_service/CustomerInterfaceManagementService/createCase/"</SoapAction>
+		<OperationName>CreateCase</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerInterfaceManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_customer_interface_management_service/CustomerInterfaceManagementService/createCustomer/"</SoapAction>
+		<OperationName>CreateCustomer</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerInterfaceManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_subscription_barring_service/SubscriptionBarringService/dataNotificationOptIn/"</SoapAction>
+		<OperationName>DataNotificationOptIn</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/subscriptionBarring/interface/v.1.2</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_subscription_barring_service/SubscriptionBarringService/dataNotificationOptOut/"</SoapAction>
+		<OperationName>DataNotificationOptOut</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/subscriptionBarring/interface/v.1.2</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_subscription_barring_service/SubscriptionBarringService/applyCustomerBar/"</SoapAction>
+		<OperationName>ApplyCustomerBar</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/subscriptionBarring/interface/v.1.2</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_subscription_barring_service/SubscriptionBarringService/removeCustomerBar/"</SoapAction>
+		<OperationName>RemoveCustomerBar</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/subscriptionBarring/interface/v.1.2</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_sim_management_service/SimManagementService/swapSIM/"</SoapAction>
+		<OperationName>SwapSIM</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/simManagement/interface/v.1.2</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_billing_service/BillingService/findBillingStatements/"</SoapAction>
+		<OperationName>FindBillingStatements</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/billingHistory/interface/v2_0</NameSpace>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"http://vf_billing_history_service/BillingService/findBillingStatementCategories/"</SoapAction>
+		<OperationName>FindBillingStatementCategories</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/billingHistory/interface/v2_0</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_billing_history_service/BillingService/findBillingStatementItems/"</SoapAction>
+		<OperationName>FindBillingStatementItems</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/billingHistory/interface/v2_0</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_sim_management_service/SimManagementService/changeSIM/"</SoapAction>
+		<OperationName>ChangeSIM</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/simManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_tariff_information_service/TariffInformationService/getServicePlan/"</SoapAction>
+		<OperationName>GetServicePlan</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/tariffInformation/interface/v2_0</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_tariff_information_service/TariffInformationService/findServiceBalances/"</SoapAction>
+		<OperationName>FindServiceBalances</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/tariffInformation/interface/v2_0</NameSpace>
+	</TemplateReturn>
+
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_promotion_management_service/PromotionManagementService/addPromotion/"</SoapAction>
+		<OperationName>AddPromotion</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/promotionManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_bundle_management_service/BundleManagementService/addCounter/"</SoapAction>
+		<OperationName>AddCounter</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/bundleManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_discount_code_management_service/DiscountCodeManagementService/activateRetailDiscountCode/"</SoapAction>
+		<OperationName>ActivateRetailDiscountCode</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/discountCodeManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_pin_management_service/PinManagementService/updateCustomerPIN/"</SoapAction>
+		<OperationName>UpdateCustomerPIN</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/pinManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetMessages"</SoapAction>
+		<OperationName>GetMessages</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace>http://www.pontis.com/2011/1/1/MDP_IVR/"></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"SendDeviceSettings.1"</SoapAction>
+		<OperationName>SendDeviceSettings</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace>http://xmlns.vodafone.co.uk/map/til/ProvisioningAndFulfilment/PhysicalResourceManagement/DeviceOrderManagement/SendDeviceSettings</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_customer_handling_service/CustomerHandlingService/notifyCustomerRegistration/"</SoapAction>
+		<OperationName>notifyCustomerRegistration</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerHandling/interface/v2_0</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetResourceList.1"</SoapAction>
+		<OperationName>GetResourceList</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"CreateSalesOrder.1"</SoapAction>
+		<OperationName>CreateSalesOrder</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetNewCoMigrationStatus.1"</SoapAction>
+		<OperationName>GetNewCoMigrationStatus</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"DebitBalance.1"</SoapAction>
+		<OperationName>DebitBalance</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"CreditBalance.1"</SoapAction>
+		<OperationName>CreditBalance</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"ReserveBalance.1"</SoapAction>
+		<OperationName>ReserveBalance</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetTopupEvents.1"</SoapAction>
+		<OperationName>GetTopupEvents</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"http://vf_sub_lifecycle_mgt_service/SubLifecycleMgtIService/getBANSubscriptions_2.0"</SoapAction>
+		<OperationName>getBANSubscriptions_2.0</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/subscriptionLifecycleManagement/interface/v.2.1</NameSpace>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>""http://vf_sub_lifecycle_mgt_service/SubLifecycleMgtIService/getBANSubscriptions/""</SoapAction>
+		<OperationName>GetBANSubscriptions</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/subscriptionLifecycleManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_cust_personal_info_mgt_service/CustPersonalInfoMgtService/updateContactDetails/"</SoapAction>
+		<OperationName>UpdateContactDetails</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerPersonalInformationManagement/interface/v.2.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_sub_lifecycle_mgt_service/SubLifecycleMgtIService/getAvailableCTNs/"</SoapAction>
+		<OperationName>GetAvailableCTNs</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/subscriptionLifecycleManagement/interface/v.2.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>CheckBankAccount.2</SoapAction>
+		<OperationName>CheckBankAccount</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_cust_personal_info_mgt_service/CustPersonalInfoMgtService/updateMarketingPreferences/"</SoapAction>
+		<OperationName>UpdateMarketingPreferences</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerPersonalInformationManagement/interface/v.2.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_cust_personal_info_mgt_service/CustPersonalInfoMgtService/getCustomerDetails/"</SoapAction>
+		<OperationName>GetCustomerDetails</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerPersonalInformationManagement/interface/v.2.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_customer_eligibility_service/CustomerEligibilityService/checkServiceEligibility/"</SoapAction>
+		<OperationName>CheckServiceEligibility</OperationName>
+		<ErrorType>MondrianWithoutOpName</ErrorType>
+		<TemplateType>MondrianWithoutOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/customerEligibility/interface/v1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_content_selling_management_service/ContentSellingManagementService/modifyUserGroup/"</SoapAction>
+		<OperationName>ModifyUserGroup</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/contentSellingManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_content_selling_management_service/ContentSellingManagementService/modifySubscription/"</SoapAction>
+		<OperationName>ModifySubscription</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/contentSellingManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_content_selling_management_service/ContentSellingManagementService/inactivateSubscription/"</SoapAction>
+		<OperationName>InactivateSubscription</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/contentSellingManagement/interface/v.1.1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_group_event_notification_service/EventNotificationService/subscribeService/"</SoapAction>
+		<OperationName>SubscribeService</OperationName>
+		<ErrorType>MondrianWithoutOpName</ErrorType>
+		<TemplateType>MondrianWithoutOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/groupEventNotification/interface/v1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_group_event_notification_service/EventNotificationService/unSubscribeService/"</SoapAction>
+		<OperationName>UnSubscribeService</OperationName>
+		<ErrorType>MondrianWithoutOpName</ErrorType>
+		<TemplateType>MondrianWithoutOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/groupEventNotification/interface/v1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_group_event_notification_service/EventNotificationService/registerAccount/"</SoapAction>
+		<OperationName>RegisterAccount</OperationName>
+		<ErrorType>MondrianWithoutOpName</ErrorType>
+		<TemplateType>MondrianWithoutOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/groupEventNotification/interface/v1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_group_event_notification_service/EventNotificationService/deRegisterAccount/"</SoapAction>
+		<OperationName>DeRegisterAccount</OperationName>
+		<ErrorType>MondrianWithoutOpName</ErrorType>
+		<TemplateType>MondrianWithoutOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/groupEventNotification/interface/v1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"ProvisioningNotification.1"</SoapAction>
+		<OperationName>ProvisioningNotification</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/provisioningNotification/interface/v.1.4</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"ChangeEquipment.1"</SoapAction>
+		<OperationName>ChangeEquipment</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://xmlns.vodafone.co.uk/map/til/ProvisioningAndFulfilment/VirtualResourceManagement/SIMMSISDNIMSIIMEIIntegrationManagement/ChangeEquipment</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://gig_external_service_provisioning_service/ExternalServiceProvisioningService/updateService/"</SoapAction>
+		<OperationName>UpdateService</OperationName>
+		<ErrorType>MondrianWithoutOpName</ErrorType>
+		<TemplateType>MondrianWithoutOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/gig/externalServiceProvisioning/interface/v2_0</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_nb_group_service_readiness_service/GroupServiceReadinessService/isServiceReady/"</SoapAction>
+		<OperationName>IsServiceReady</OperationName>
+		<ErrorType>MondrianWithoutOpName</ErrorType>
+		<TemplateType>MondrianWithoutOpNameTYPE</TemplateType>
+		<NameSpace>http://www.vodafone.com/vf/gig/groupServiceReadiness/interface/v1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"CheckRetentionEligibility.1"</SoapAction>
+		<OperationName>CheckRetentionEligibility</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetEstimatedInvoiceSummary.1"</SoapAction>
+		<OperationName>GetEstimatedInvoiceSummary</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetAgreementList.1"</SoapAction>
+		<OperationName>GetAgreementList</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetInvoiceList.1"</SoapAction>
+		<OperationName>GetInvoiceList</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_notify_customer_service/NotifyCustomerService/NotifyCustomer"</SoapAction>
+		<OperationName>NotifyCustomer</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://xmlns.vodafone.co.uk/map/til/CustomerManagement/CustomerProfileManagement/CustomerPersonalInformationManagement/NotifyCustomer</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"ProcessCreditVet.1"</SoapAction>
+		<OperationName>ProcessCreditVet</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"ValidatePAC.2"</SoapAction>
+		<OperationName>ValidatePAC</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetAddressList.1"</SoapAction>
+		<OperationName>GetAddressList</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetCustomerPartyList.1"</SoapAction>
+		<OperationName>GetCustomerPartyList</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"CreateCustomerParty.1"</SoapAction>
+		<OperationName>CreateCustomerParty</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Issue"</SoapAction>
+		<OperationName>GetToken</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"UpdateResource.1"</SoapAction>
+		<OperationName>UpdateResource</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_subsciber_content_profile_service/SubscriberContentProfileService/GetSubscriberContentProfile"</SoapAction>
+		<OperationName>GetSubscriberContentProfile</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://www.openmobilealliance.org/RequestPreProvision"</SoapAction>
+		<OperationName>RequestPreProvision</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>urn:oma:wsdl:roamingprovisioning:1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"AcknowledgePreProvision"</SoapAction>
+		<OperationName>AcknowledgePreProvision</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>urn:oma:wsdl:roamingprovisioning:1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"CompletePreProvision"</SoapAction>
+		<OperationName>CompletePreProvision</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>urn:oma:wsdl:roamingprovisioning:1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://www.openmobilealliance.org/RequestProvision"</SoapAction>
+		<OperationName>RequestProvision</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>urn:oma:wsdl:roamingprovisioning:1</NameSpace>
+	</TemplateReturn>
+
+
+	<TemplateReturn>
+		<SoapAction>"CompleteProvision"</SoapAction>
+		<OperationName>CompleteProvision</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>urn:oma:wsdl:roamingprovisioning:1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://www.openmobilealliance.org/RequestDeProvision"</SoapAction>
+		<OperationName>RequestDeProvision</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>urn:oma:wsdl:roamingprovisioning:1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"AcknowledgeDeProvision"</SoapAction>
+		<OperationName>AcknowledgeDeProvision</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>urn:oma:wsdl:roamingprovisioning:1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"CompleteDeProvision"</SoapAction>
+		<OperationName>CompleteDeProvision</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>urn:oma:wsdl:roamingprovisioning:1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"SuspendRoaming"</SoapAction>
+		<OperationName>SuspendRoaming</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>urn:oma:wsdl:roamingprovisioning:1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"RoamingSuspended"</SoapAction>
+		<OperationName>RoamingSuspended</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>urn:oma:wsdl:roamingprovisioning:1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"UnSuspendRoaming"</SoapAction>
+		<OperationName>UnSuspendRoaming</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>urn:oma:wsdl:roamingprovisioning:1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"RoamingUnSuspended"</SoapAction>
+		<OperationName>RoamingUnSuspended</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>urn:oma:wsdl:roamingprovisioning:1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetCTNIMEIHistory.2"</SoapAction>
+		<OperationName>GetCTNIMEIHistory.2</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetMobileDeviceBlacklistStatus.2"</SoapAction>
+		<OperationName>GetMobileDeviceBlacklistStatus.2</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://vf_content_selling_management_service/ContentSellingManagementService/modifyMSISDN/"</SoapAction>
+		<OperationName>ModifyMSISDN</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetSubscriptionDetails.2"</SoapAction>
+		<OperationName>GetSubscriptionDetails</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"RedeemVoucher.1"</SoapAction>
+		<OperationName>RedeemVoucher</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+
+	<TemplateReturn>
+		<SoapAction>"CreateCustomerInteraction.1"</SoapAction>
+		<OperationName>CreateCustomerInteraction</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"CheckProductEligibility.1"</SoapAction>
+		<OperationName>CheckProductEligibility</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+
+	<TemplateReturn>
+		<SoapAction>"CreateServiceCase.1"</SoapAction>
+		<OperationName>CreateServiceCase</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"RemoveBundle.1"</SoapAction>
+		<OperationName>RemoveBundle</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"PartnerCheckProductEligibility.1"</SoapAction>
+		<OperationName>PartnerCheckProductEligibility</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://example.com/CreateSubscription"</SoapAction>
+		<OperationName>PandPCreateSubscription</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://group.vodafone.com/pandp/v1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://example.com/UpdateCustomerPreferencesList"</SoapAction>
+		<OperationName>UpdateCustomerPreferencesList</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://group.vodafone.com/pandp/v1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://example.com/UpdateCustomerPermissionsList"</SoapAction>
+		<OperationName>UpdateCustomerPermissionsList</OperationName>
+		<ErrorType>MondrianWithOpName</ErrorType>
+		<TemplateType>MondrianWithOpNameTYPE</TemplateType>
+		<NameSpace>http://group.vodafone.com/pandp/v1</NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"CancelReservedBalance.1"</SoapAction>
+		<OperationName>CancelReservedBalance</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+
+	<TemplateReturn>
+		<SoapAction>"ChangeSubscription.2"</SoapAction>
+		<OperationName>ChangeSubscription</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+
+	<TemplateReturn>
+		<SoapAction>"UpdateSubscriptionDetails.2"</SoapAction>
+		<OperationName>UpdateSubscriptionDetails</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetSubscriberDetails.1"</SoapAction>
+		<OperationName>GetSubscriberDetails</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetServiceUsageDetails.1"</SoapAction>
+		<OperationName>GetServiceUsageDetails</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetInvoiceDetails.1"</SoapAction>
+		<OperationName>GetInvoiceDetails</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetInvoiceSummary.1"</SoapAction>
+		<OperationName>GetInvoiceSummary</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"UpdateCustomerParty.1"</SoapAction>
+		<OperationName>UpdateCustomerParty</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"PartnerCheckProductEligibility.1"</SoapAction>
+		<OperationName>PartnerCheckProductEligibility</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Cancel"</SoapAction>
+		<OperationName>DeleteToken</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+
+	<TemplateReturn>
+		<SoapAction>"GetSession.1"</SoapAction>
+		<OperationName>GetSession</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetBillList.1"</SoapAction>
+		<OperationName>GetBillList</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetClientReports.1"</SoapAction>
+		<OperationName>GetClientReports</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"DoProfileChanges_WSDL"</SoapAction>
+		<OperationName>DoProfileChanges_WSDL</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"RemoveServiceFromClient_WSDL"</SoapAction>
+		<OperationName>RemoveServiceFromClient_WSDL</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"AuthorisePayment.1"</SoapAction>
+		<OperationName>AuthorisePayment</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"CreateSalesOrder.1.UC4"</SoapAction>
+		<OperationName>CreateSalesOrderUC4</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetTerminalLocation.3"</SoapAction>
+		<OperationName>GetTerminalLocationV3</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+	
+	<TemplateReturn>
+		<SoapAction>"http://location_service/getGeoLocation/"</SoapAction>
+		<OperationName>getGeoLocation</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+	
+	
+	<TemplateReturn>
+		<SoapAction>"GetProfile_WSDL"</SoapAction>
+		<OperationName>GetProfile_WSDL</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+	
+	<TemplateReturn>
+		<SoapAction>"GetSalesOrderList.1"</SoapAction>
+		<OperationName>GetSalesOrderList</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetUnbilledDetails.1"</SoapAction>
+		<OperationName>GetUnbilledDetails</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetUnbilledSummary.1"</SoapAction>
+		<OperationName>GetUnbilledSummary</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"AuthenticateIdentity.1"</SoapAction>
+		<OperationName>AuthenticateIdentity</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+
+	<TemplateReturn>
+		<SoapAction>"GetProfile.1"</SoapAction>
+		<OperationName>GetProfile</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace></NameSpace>
+	</TemplateReturn>
+	
+	<TemplateReturn>
+		<SoapAction>"GetInstalledProductList.1"</SoapAction>
+		<OperationName>GetInstalledProductList</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"GetDeviceBlacklistStatus.1"</SoapAction>
+		<OperationName>GetDeviceBlacklistStatus</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"UpdateCustomerPIN.3"</SoapAction>
+		<OperationName>UpdateCustomerPINV3</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"ConnectResource.1"</SoapAction>
+		<OperationName>ConnectResource</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"CancelResource.1"</SoapAction>
+		<OperationName>CancelResource</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"ValidatePAC.3"</SoapAction>
+		<OperationName>ValidatePACV3</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"GetDeviceBlacklistStatus.1"</SoapAction>
+		<OperationName>GetDeviceBlacklistStatus</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"UpdateDeviceBlacklistStatus.1"</SoapAction>
+		<OperationName>UpdateDeviceBlacklistStatus</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"GetResourceList.2"</SoapAction>
+		<OperationName>GetResourceListV2</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"UpdateResource.2"</SoapAction>
+		<OperationName>UpdateResourceV2</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"GetVoiceSettings.1"</SoapAction>
+		<OperationName>GetVoiceSettings</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"UpdateVoiceSettings.1"</SoapAction>
+		<OperationName>UpdateVoiceSettings</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"UpdateUsageNotificationPreference.1"</SoapAction>
+		<OperationName>UpdateUsageNotificationPreference</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"UpdateResourceServiceBars.1"</SoapAction>
+		<OperationName>UpdateResourceServiceBars</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"UpdateResourceServices.1"</SoapAction>
+		<OperationName>UpdateResourceServices</OperationName>
+		<ErrorType>new</ErrorType>
+		<TemplateType>NEWTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"http://group.vodafone.com/contract/vbs/subscription/subscription/v1/get-list"</SoapAction>
+		<OperationName>CSMGetSubscriptionList</OperationName>
+		<ErrorType>CSM</ErrorType>
+		<TemplateType>CSMTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"http://group.vodafone.com/contract/vbs/customer/customer-account/v1/get-list"</SoapAction>
+		<OperationName>CSMGetCustomerAccountList</OperationName>
+		<ErrorType>CSM</ErrorType>
+		<TemplateType>CSMTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"http://group.vodafone.com/contract/vbs/customer/customer-party/v1/get-list"</SoapAction>
+		<OperationName>CSMGetCustomerPartyList</OperationName>
+		<ErrorType>CSM</ErrorType>
+		<TemplateType>CSMTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"http://group.vodafone.com/contract/vbs/order/sales-order/v1/create"</SoapAction>
+		<OperationName>CSMCreateSalesOrder.1</OperationName>
+		<ErrorType>CSM</ErrorType>
+		<TemplateType>CSMTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"http://group.vodafone.com/contract/vbs/product/eligible-product-offering/v1/get-list"</SoapAction>
+		<OperationName>CSMGetEligibleProductOfferingList.1</OperationName>
+		<ErrorType>CSM</ErrorType>
+		<TemplateType>CSMTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+		<SoapAction>"http://group.vodafone.com/contract/vbs/subscription/subscription-profile/v1/get-list"</SoapAction>
+		<OperationName>CSMGetSubscriptionProfileList.1</OperationName>
+		<ErrorType>CSM</ErrorType>
+		<TemplateType>CSMTYPE</TemplateType>
+		<NameSpace/>
+	</TemplateReturn>
+	<TemplateReturn>
+                <SoapAction>"GetBalance.2"</SoapAction>
+                <OperationName>GetBalanceV2</OperationName>
+                <ErrorType>new</ErrorType>
+                <TemplateType>NEWTYPE</TemplateType>
+                <NameSpace/>
+     </TemplateReturn>  
+</Syntax>

@@ -1,0 +1,202 @@
+<Syntax>
+    <DetailsOfPartner>
+        <SerialNumber>1000000101000001000001</SerialNumber>
+        <CAIssuer>CN=probe.rig.vfuk,O=Vodafone UK,C=UK</CAIssuer>
+        <PartnerName>PROBE</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>56:46:55:4B:49:54:49:4C:00:00:01</SerialNumber>
+        <CAIssuer>/C=UK/O=Vodafone Group/CN=VFUKITIL001</CAIssuer>
+        <PartnerName>ISTIL</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>5646554B76897888000001</SerialNumber>
+        <CAIssuer>CN=VFUKLYNX001,O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>LYNX</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>56:46:47:50:54:54:49:4C:00:00:01</SerialNumber>
+        <CAIssuer>/C=UK/O=Vodafone Group/CN=VFUKTTIL001</CAIssuer>
+        <PartnerName>TSTIL</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>01000000000158DE7781A78DE706</SerialNumber>
+        <CAIssuer>CN=Vodafone (Trusted Clients),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>MIG</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0100000000012BE8E043BD</SerialNumber>
+        <CAIssuer>CN=Vodafone (Trusted Clients),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>Talkmobile</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0100000000014C79E788C436F5CD</SerialNumber>
+        <CAIssuer>CN=Vodafone (Trusted Clients),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>PONTIS</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>011ECF44F328E9417CEC878D7271FB96</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>DETROIT</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0591DD1C14F3D6B3849BBC18F991922B</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>WIN</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>564F44414C495645000001</SerialNumber>
+        <CAIssuer>CN=VODALIVE001,O=Vodafone UK,C=GB</CAIssuer>
+        <PartnerName>VODALIVE</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>4252495449534854454C01</SerialNumber>
+        <CAIssuer>CN=BRITISHTEL1,O=LES Partner,C=GB</CAIssuer>
+        <PartnerName>BRITISHTEL</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>05AFE13A5DE8B574CBFA291BB1AFC293</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>ITISHOLS</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0100000000014FA74386CCD56B2B</SerialNumber>
+        <CAIssuer>CN=Vodafone (Trusted Clients),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>MOCOMMTD</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>04F6F0F339F7C6AECE63F63966941EE1</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>PREMTEXT</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0100000000014CC257BEECB2A24C</SerialNumber>
+        <CAIssuer>CN=Vodafone (Trusted Clients),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>OPENMARKET</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0BAE0F4A4E373C453D37F01DDBCE7919</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>CAPELLO</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>084877B5902602BBCF43F5E57FAD629F</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>TRAPHONE</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0EC5ED4EDE4AA2285A1C136A786E7C7F</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>ZYGO</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>01000000000131ADBCCC1D</SerialNumber>
+        <CAIssuer>CN=Vodafone (Trusted Clients),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>SITEREFRESH</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0EACFD0C77843C806EE1EEEAACA1461B</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>BMB</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0AFB22F76D7C22617BFBA8F2E9854FC4</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>VELTI</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>01000000000149A2D1A7DFF124AC</SerialNumber>
+        <CAIssuer>CN=Vodafone (Trusted Clients),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>AskOnline</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0832890E10CEAC69AD45A304D52FAE7E</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>NSC</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0100000000014474EE2DA667F216</SerialNumber>
+        <CAIssuer>CN=Vodafone (Trusted Clients),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>SAINSBURYS</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>010000000001507FFE15FCBB8C8F</SerialNumber>
+        <CAIssuer>CN=Vodafone (Trusted Clients),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>2020</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0FB28947404E4B38BFE86E994EA00138</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>CPW</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>1111111111111111111111111111</SerialNumber>
+        <CAIssuer>CN=ARP1 (Dummy),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>ARP1</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>2222222222222222222222222222</SerialNumber>
+        <CAIssuer>CN=ARP2 (Dummy),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>ARP2</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0D1C873DDA04AE8679D4FF787E017857</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>UC4</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>020000000001476D75E63AB342C2</SerialNumber>
+        <CAIssuer>CN=Vodafone (Trusted Clients),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>NEON</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0A0D959ED44E76BF311EEBB26E2E18EB</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>APPLE</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0E5EFC44BB85B1B20B5596E3EE9D1957</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>VGSG_Permissions_UK_FIT</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>08D412012DEC63494E715E8EFD358920</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>VFEuropeanNetworkEngineering</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>5646475047494758000001</SerialNumber>
+        <CAIssuer>CN=VFGPGIGX001,O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>GIG</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>090302829135EA19432FA4849471DD8E</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>VESTA</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0100000000014E4E1B703272A5C0</SerialNumber>
+        <CAIssuer>CN=Vodafone (Trusted Clients),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>Kaltura</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0DE8400D03A89B85A068BA81E38E743B</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>IBEX</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>01000000000151444B2F859C691A</SerialNumber>
+        <CAIssuer>CN=Vodafone (Trusted Clients),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>JT</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>01000000000155DF47DE4251CB63</SerialNumber>
+        <CAIssuer>CN=Vodafone (Trusted Clients),O=Vodafone Group,C=UK</CAIssuer>
+        <PartnerName>APIX</PartnerName>
+    </DetailsOfPartner>
+    <DetailsOfPartner>
+        <SerialNumber>0436828449FE9DEF958A7B88669E7495</SerialNumber>
+        <CAIssuer>CN=DigiCert SHA2 Assured ID CA,OU=www.digicert.com,O=DigiCert Inc,C=US</CAIssuer>
+        <PartnerName>BAMBOO</PartnerName>
+    </DetailsOfPartner>
+</Syntax>
